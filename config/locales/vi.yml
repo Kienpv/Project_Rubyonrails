@@ -1,0 +1,41 @@
+vi:
+  layouts:
+    application:
+      app_title: "Hướng dẫn Ruby on Rails với ứng dụng mẫu"
+  link:
+    change_locale:
+      en: "Tiếng Anh"
+      vi: "Tiếng Việt"
+  static_pages:
+    home:
+      ho_title: "ứng dụng mẫu"
+      ho_section: "ứng dụng mẫu"
+      ho_txt1: "Đây là trang chủ của "
+      ho_link1: "Hướng dẫn Ruby on Rails"
+      ho_txt2: " cho các ứng dụng mẫu."
+    help:
+      hlp_title: "Trợ giúp"
+      hlp_section: "Trợ giúp"
+      hlp_txt1: "Nhận trợ giúp Hướng dẫn Ruby on Rails ở "
+      hlp_link1: "phần trợ giúp hướng dẫn Rails"
+      hlp_txt2: ". Để nhận trợ giúp cho ứng dụng mẫu, nhìn vào "
+      htp_link2: "Hướng dẫn Ruby on Rails"
+      hlp_txt3: " sách."
+    about:
+      ab_title: "Về chúng tôi"
+      ab_section: "Về chúng tôi"
+      ab_txt1: "Tài liệu "
+      ab_link1: "Hướng dẫn Ruby on Rails"
+      ab_txt2: " là "
+      ab_link2: "một cuốn sách"
+      ab_txt3: " và "
+      ab_link3: "danh sách các hình ảnh"
+      ab_txt4: " để dạy các nhà phát triển web về "
+      ab_link4: "Ruby on Rails"
+      ab_txt5: ". Đây là ứng dụng mẫu cho Hướng dẫn."
+    contact:
+      cont_title: "Liên hệ"
+      cont_section: "Liên hệ"
+      cont_txt1: "Liên hệ Hướng dẫn Ruby on Rails về ứng dụng mẫu ở "
+      cont_link1: "trang liên hệ"
+      cont_txt2: "."
