@@ -26,20 +26,31 @@ group :development do
   gem "spring-watcher-listen", "~> 2.0.0"
 end
 
+group :test do
+  gem "rails-controller-testing", "1.0.2"
+  gem "minitest-reporters", "1.1.14"
+  gem "guard", "2.14.2"
+  gem "guard-minitest", "2.4.4"
+end
+
+group :production do
+  gem "pg", "1.0.0"
+end
+
 gem "tzinfo-data", platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 group :development, :test do
   gem "rspec"
   gem "rspec-rails"
   gem "rspec-collection_matchers"
-  gem "factory_girl_rails"
+  gem "factory_bot_rails"
   gem "better_errors"
   gem "guard-rspec", require: false
   gem "database_cleaner"
   gem "brakeman", require: false
   gem "jshint"
   gem "bundler-audit"
-  gem "rubocop", "~> 0.35.0", require: false
+  gem "rubocop", "~> 0.52.1", require: false
   gem "rubocop-checkstyle_formatter", require: false
   gem "eslint-rails", git: "https://github.com/octoberstorm/eslint-rails", require: false
   gem "scss_lint_reporter_checkstyle", require: false

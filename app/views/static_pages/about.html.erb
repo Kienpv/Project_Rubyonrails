@@ -1,0 +1,18 @@
+<% provide :title, t(".ab_title") %>
+<h1><%= t ".ab_section" %></h1>
+<p>
+  <%= t ".ab_txt1" %>
+  <%= link_to t(".ab_link1"), "http://www.railstutorial.org/" %>
+  <%= t ".ab_txt2" %>
+  <%= link_to t(".ab_link2"), "http://www.railstutorial.org/book" %>
+  <%= t ".ab_txt3" %>
+  <%= link_to t(".ab_link3"), "http://screencasts.railstutorial.org/" %>
+  <%= t ".ab_txt4" %>
+  <%= link_to t(".ab_link4"), "http://rubyonrails.org/" %>
+  <%= t ".ab_txt5" %>
+</p>
+<p>
+  <a><%= link_to t("static_pages.home.ho_title"), root_path %></a>
+  <a><%= link_to t("static_pages.contact.cont_title"), contact_path %></a>
+  <a><%= link_to t("static_pages.help.hlp_title"), help_path %></a>
+</p>

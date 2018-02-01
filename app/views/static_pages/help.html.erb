@@ -1,0 +1,14 @@
+<% provide :title, t(".hlp_title") %>
+<h1><%= t ".hlp_section" %></h1>
+<p>
+  <%= t ".hlp_txt1" %>
+  <%= link_to t(".hlp_link1"), "http://www.railstutorial.org/help" %>
+  <%= t ".hlp_txt2" %>
+  <%= link_to t(".hlp_link2"), "http://www.railstutorial.org/book" %>
+  <%= t ".hlp_txt3" %>
+</p>
+<p>
+  <a><%= link_to t("static_pages.home.ho_title"), root_path %></a>
+  <a><%= link_to t("static_pages.about.ab_title"), about_path %></a>
+  <a><%= link_to t("static_pages.contact.cont_title"), contact_path %></a>
+</p>
