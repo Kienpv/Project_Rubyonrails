@@ -2,6 +2,19 @@ vi:
   layouts:
     application:
       app_title: "Hướng dẫn Ruby on Rails với ứng dụng mẫu"
+    footer:
+      fo_txt1: "Đây là "
+      fo_link1: "Hướng dẫn Ruby on Rails"
+      fo_txt2: " tạo bởi "
+      fo_link2: "Michael Hartl"
+      fo_path1: "Về chúng tôi"
+      fo_path2: "Liên hệ"
+      fo_link3: "Tin tức"
+    header:
+      hed_path1: "ứng dụng mẫu"
+      hed_path2: "Trang chủ"
+      hed_path3: "Trợ giúp"
+      hed_path4: "Đăng nhập"
   link:
     change_locale:
       en: "Tiếng Anh"
@@ -39,3 +52,8 @@ vi:
       cont_txt1: "Liên hệ Hướng dẫn Ruby on Rails về ứng dụng mẫu ở "
       cont_link1: "trang liên hệ"
       cont_txt2: "."
+  users:
+    new:
+      ne_title: "Đăng ký"
+      ne_section: "Đăng ký"
+      ne_txt1: "Đây là trang đăng ký cho người dùng mới."
