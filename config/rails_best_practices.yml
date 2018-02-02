@@ -23,8 +23,14 @@ ProtectMassAssignmentCheck: { }
 RemoveEmptyHelpersCheck: { }
 #RemoveTabCheck: { }
 RemoveTrailingWhitespaceCheck: { }
-RemoveUnusedMethodsInControllersCheck: { except_methods: ['StaticPagesController#home', 'StaticPagesController#about', 'StaticPagesController#contact', 'StaticPagesController#help'] }
-RemoveUnusedMethodsInHelpersCheck: { except_methods: ['ApplicationHelper#full_title'] }
+RemoveUnusedMethodsInControllersCheck: { except_methods: [
+  'StaticPagesController#home', 'StaticPagesController#about',
+  'StaticPagesController#contact', 'StaticPagesController#help',
+  'UsersController#new'
+  ] }
+RemoveUnusedMethodsInHelpersCheck: { except_methods: [
+  'ApplicationHelper#full_title'
+  ] }
 RemoveUnusedMethodsInModelsCheck: { except_methods: [] }
 ReplaceComplexCreationWithFactoryMethodCheck: { attribute_assignment_count: 2 }
 ReplaceInstanceVariableWithLocalVariableCheck: { }

@@ -2,17 +2,30 @@ en:
   layouts:
     application:
       app_title: "Ruby on Rails Tutorial Sample App"
+    footer:
+      fo_txt1: "The "
+      fo_link1: "Ruby on Rails Tutorial"
+      fo_txt2: " by "
+      fo_link2: "Michael Hartl"
+      fo_path1: "About"
+      fo_path2: "Contact"
+      fo_link3: "News"
+    header:
+      hed_path1: "sample app"
+      hed_path2: "Home"
+      hed_path3: "Help"
+      hed_path4: "Log in"
   link:
     change_locale:
       en: "English"
       vi: "Vietnamese"
   static_pages:
     home:
-      ho_title: "Sample App"
-      ho_section: "Sample App"
+      ho_section: "Welcome to the Sample App"
       ho_txt1: "This is the home page for the"
       ho_link1: "Ruby on Rails Tutorial"
       ho_txt2: "sample application."
+      ho_link2: "Sign up now!"
     help:
       hlp_title: "Help"
       hlp_section: "Help"
@@ -39,3 +52,8 @@ en:
       cont_txt1: "Contact the Ruby on Rails Tutorial about the sample app at the"
       cont_link1: "contact page"
       cont_txt2: "."
+  users:
+    new:
+      ne_title: "Sign up"
+      ne_section: "Sign up"
+      ne_txt1: "This will be a signup page for new users."
