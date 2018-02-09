@@ -9,7 +9,7 @@ class StaticPagesControllerTest < ActionDispatch::IntegrationTest
   test "should get home" do
     get root_path
     assert_response :success
-    assert_select "title", "Home | #{@base_title}"
+    assert_select "title", "#{@base_title}"
   end
 
   test "should get help" do
@@ -33,6 +33,6 @@ class StaticPagesControllerTest < ActionDispatch::IntegrationTest
   test "should get signup" do
     get signup_path
     assert_response :success
-    assert_select "title", "Signup | #{@base_title}"
+    assert_select "title", "Sign up | #{@base_title}"
   end
 end

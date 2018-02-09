@@ -21,7 +21,7 @@ en:
       vi: "Vietnamese"
   static_pages:
     home:
-      ho_section: "Welcome to the Sample App"
+      ho_title: "Sample App"
       ho_txt1: "This is the home page for the"
       ho_link1: "Ruby on Rails Tutorial"
       ho_txt2: "sample application."
